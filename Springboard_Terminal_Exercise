@@ -1,0 +1,50 @@
+Project File for Terminal Exercise in Unit 3.4 (Command Commands for Windows and Mac)
+
+Questions
+Part I
+1.	make a directory called first
+2.	change directory to the first folder
+3.	create a file called person.txt
+4.	change the name of person.txt to another.txt
+5.	make a copy of the another.txt file and call it copy.txt
+6.	remove the copy.txt file
+7.	make a copy of the first folder and call it second
+8.	delete the second folder
+Part II
+1.	What does the man command do? Type in man rm. How do you scroll and get out?
+2.	Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+3.	How do you jump between words in the terminal?
+4.	How do you get to the end of a line in terminal?
+5.	How do you move your cursor to the beginning in terminal?
+6.	How do you delete a word (without pressing backspace multiple times) in terminal?
+7.	What is the difference between a terminal and shell?
+8.	What is an absolute path?
+9.	What is an relative path?
+10.	What is a flag? Give three examples of flags you have used.
+11.	What do the r and f flags do with the rm command?
+
+Answers
+Part I
+1. mkdir first 
+2. cd first
+3. touch person.txt
+4. mc person.txt another.txt
+5. cp another.txt copy.txt
+6. rm copy.txt
+7. cp first second
+8. rmdir second
+
+Part II
+1. The man command gives the manual on any given command. It provides detail information on the function and flags. Pressing enter will scroll. To get out, you press q for quit.  
+2. The -l flag displays detailed information. The -a flag displays all files; it doesn’t ignore hidden files. 
+3.  Option/Alt + left/right
+4. Command/Control + e
+5. Command/Control + a
+6. Command/Control + w
+7. A terminal is an application that gives a command line interface to interact with the computer. A shell is the program that processes the commands and provides output. 
+8. An absolute path is the path that provides the location of the file or folder, starting from the root directory.
+9. A relative path is the path that provides the location of the file or folder, starting from the current working directory.
+10. A flag modifies the function of a command in terminal. Three examples would be -a, the -l and the -x flags for the ls command. The a flag shows all files, the l flag gives detailed information and the x flag displays entries in rows instead of columns.
+11. The -r flag is for recursively removing directories and their contents. The -f flag is force, ignoring nonexistent files and arguments without prompting. Together, they will completely remove a directory and its contents completely and without further confirmation.
+
+
